@@ -1,4 +1,4 @@
-<img src="https://www.mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" width="200">
+<!-- <img src="https://www.mlflow.org/docs/latest/_static/MLflow-logo-final-black.png" width="200"> -->
 
 #### MLflow Lab Part 2: Projects and Models
          
@@ -17,7 +17,15 @@ An MLflow Project is a format for packaging data science code in a reusable and 
 
 [MLflow Project Example](https://github.com/Isaac4real/MLflow_Project.git)
 
-<img src="https://raw.githubusercontent.com/Isaac4real/MLflow_Experiment/master/Part2-%20MLflow%20Projects%26Models/Images/MLproject_structure.png" height="200">
+<!-- <img src="https://raw.githubusercontent.com/Isaac4real/MLflow_Experiment/master/Part2-%20MLflow%20Projects%26Models/Images/MLproject_structure.png" height="200"> -->
+
+- the __conda.yaml__ file in __MLflow_project__ folder needs to include all the package name & versions
+ under pip:, otherwise runing __run_project.py__ from root will not work. 
+- The root treats the MLflow_project folder as an independent environment/package. So even if the conda env
+ in my local computer's terminal has matplotlib, as long as matplotlib isn't in conda.yaml, 
+ __python run_project.py__ won't work!!!
+- __MLProject__ is another config file that needs to include the right params and commands.
+ The command is the same command as when we run the script __Train_TensorFlow.py__ directly.
 
 &nbsp;
 
