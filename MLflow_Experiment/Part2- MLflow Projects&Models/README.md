@@ -15,7 +15,9 @@ An MLflow Project is a format for packaging data science code in a reusable and 
   
 ###### What's does a MLflow Project Look Like?
 
-[MLflow Project Example](https://github.com/Isaac4real/MLflow_Project.git)
+<!-- [MLflow Project Example](https://github.com/Isaac4real/MLflow_Project.git) -->
+[MLflow Project Example](./MLflow_project)
+
 
 <!-- <img src="https://raw.githubusercontent.com/Isaac4real/MLflow_Experiment/master/Part2-%20MLflow%20Projects%26Models/Images/MLproject_structure.png" height="200"> -->
 
