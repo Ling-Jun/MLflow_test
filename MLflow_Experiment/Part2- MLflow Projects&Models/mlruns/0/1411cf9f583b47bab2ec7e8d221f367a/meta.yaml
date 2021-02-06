@@ -1,0 +1,15 @@
+artifact_uri: file:///home/randommarkov/Documents/Coding/MLflow/MLflow_Experiment/Part2-%20MLflow%20Projects%26Models/mlruns/0/1411cf9f583b47bab2ec7e8d221f367a/artifacts
+end_time: 1612641064495
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 1411cf9f583b47bab2ec7e8d221f367a
+run_uuid: 1411cf9f583b47bab2ec7e8d221f367a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1612641064474
+status: 3
+tags: []
+user_id: randommarkov
